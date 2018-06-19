@@ -22,8 +22,8 @@ if(slides){
 
       	return(
 
-            <div key={item.id} className="item_slider"
-             style={{background: `url(/images/covers/${item.cover})`}}
+            <div key={item.id} className="item_slider"       
+            style= {{background: `url(./images/covers/${item.cover})` }}
              >
            <div className="caption">
            <h4>{item.topic}</h4>
